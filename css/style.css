@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'digital-7regular';
+    src: url('digital-7-webfont.woff2') format('woff2'), url('digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    min-height: 100%;
+}
+
+.clockScreen {
+    width:45%;
+    min-width: max-content;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#day {
+    text-align: right;
+    padding-bottom: 10px;
+  
+}
+
+.time {
+   
+    line-height: 0.8;
+    text-align: right;
+    font-size: 170px;
+    font-family: 'digital-7regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h {
+    padding-right: 4px;
+    text-align: center;
+}
+
+#m {
+    display: inline;
+    padding: 0px 4px 0px;
+    margin: 0;
+    text-align: left;
+}
+
+#s {
+    padding-left: 4px;
+    padding-right: 0;
+}

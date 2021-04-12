@@ -17,7 +17,7 @@ html {
 body {
     
     background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Patua One', Georgia, 'Times New Roman', Times, serif;
     position: relative;
     min-height: 100%;
 }
@@ -50,18 +50,18 @@ body {
 }
 
 #h {
-    padding-right: 4px;
+    padding-right: 7px;
     text-align: center;
 }
 
 #m {
     display: inline;
-    padding: 0px 4px 0px;
+    padding: 0px 7px 0px;
     margin: 0;
     text-align: left;
 }
 
 #s {
-    padding-left: 4px;
+    padding-left: 7px;
     padding-right: 0;
 }
